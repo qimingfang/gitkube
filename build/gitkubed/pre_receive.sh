@@ -54,7 +54,7 @@ echo "Gitkube build system : $(date): Initialising"
 echo
 
 # Create the build directory
-echo "Creating the build directory"
+echo "Creating the build directory (test)"
 mkdir -p "${BUILD_ROOT}"
 
 # Loop, because it is possible to push more than one branch at a time. (git push --all)
